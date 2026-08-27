@@ -2,15 +2,26 @@
 
 Personal Claude Code plugin — skills, agents, hooks, and other extensions for my own workflows.
 
+## Install
+
+The repo is private, so `gh auth login` (or an SSH key loaded in `ssh-agent`) must already grant access.
+
+```
+/plugin marketplace add djhojd/claude-plugin
+/plugin install djhojd-claude-plugin@claude-plugin
+```
+
+Update to the latest pushed version any time with `/plugin marketplace update claude-plugin`.
+
 ## Development
 
-Test locally without installing:
+Test changes locally before pushing, without installing:
 
 ```bash
 claude --plugin-dir ./
 ```
 
-Run `/reload-plugins` inside a session to pick up changes.
+Run `/reload-plugins` inside a session to pick up further changes.
 
 ## Structure
 

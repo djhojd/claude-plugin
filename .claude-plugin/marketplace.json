@@ -1,0 +1,13 @@
+{
+  "name": "claude-plugin",
+  "owner": {
+    "name": "Claudiu Hojda"
+  },
+  "plugins": [
+    {
+      "name": "djhojd-claude-plugin",
+      "source": "./",
+      "description": "Personal Claude Code plugin"
+    }
+  ]
+}
