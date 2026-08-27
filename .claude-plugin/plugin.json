@@ -1,0 +1,13 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "djhojd-claude-plugin",
+  "version": "0.1.0",
+  "description": "TODO: describe what this plugin provides",
+  "author": {
+    "name": "Claudiu Hojda",
+    "email": "claudiu.hojda@visma.com"
+  },
+  "skills": [
+    "./"
+  ]
+}
