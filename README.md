@@ -8,10 +8,10 @@ The repo is private, so `gh auth login` (or an SSH key loaded in `ssh-agent`) mu
 
 ```
 /plugin marketplace add djhojd/claude-plugin
-/plugin install djhojd-claude-plugin@claude-plugin
+/plugin install djhojd-claude-plugin@djhojd-marketplace
 ```
 
-Update to the latest pushed version any time with `/plugin marketplace update claude-plugin`.
+Update to the latest pushed version any time with `/plugin marketplace update djhojd-marketplace`.
 
 ## Development
 
