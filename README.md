@@ -26,4 +26,4 @@ Run `/reload-plugins` inside a session to pick up further changes.
 ## Structure
 
 - `.claude-plugin/plugin.json` — plugin manifest
-- `SKILL.md` — this plugin's skill (single-skill layout; move to `skills/<name>/SKILL.md` if it grows to more than one)
+- `skills/<name>/SKILL.md` — one directory per skill
