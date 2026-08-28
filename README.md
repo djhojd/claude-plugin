@@ -4,8 +4,6 @@ Personal Claude Code plugin — skills, agents, hooks, and other extensions for 
 
 ## Install
 
-The repo is private, so `gh auth login` (or an SSH key loaded in `ssh-agent`) must already grant access.
-
 ```
 /plugin marketplace add djhojd/claude-plugin
 /plugin install djhojd-claude-plugin@djhojd-marketplace
@@ -26,4 +24,5 @@ Run `/reload-plugins` inside a session to pick up further changes.
 ## Structure
 
 - `.claude-plugin/plugin.json` — plugin manifest
+- `.claude-plugin/marketplace.json` — single-entry marketplace pointing back at this repo, so it can be installed with `/plugin install`
 - `skills/<name>/SKILL.md` — one directory per skill
